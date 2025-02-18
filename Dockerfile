@@ -7,12 +7,14 @@ ENV KC_HTTP_ENABLED=true
 ENV KEYCLOAK_ADMIN=admin
 ENV KEYCLOAK_ADMIN_PASSWORD=admin
 
+
 # # Configure database (PostgreSQL)
 # ENV KC_DB=postgres
 # ENV KC_DB_URL=jdbc:postgresql://bmhfnafxfedbcqvcqpoz-postgresql.services.clever-cloud.com:50013/bmhfnafxfedbcqvcqpoz
 # ENV KC_DB_USERNAME=bmhfnafxfedbcqvcqpoz
 # ENV KC_DB_PASSWORD=bmhfnafxfedbcqvcqpoz
 # ENV KC_DB_SCHEMA=public
+
 
 # Set correct hostname for Keycloak
 ENV KC_HOSTNAME_STRICT=false
