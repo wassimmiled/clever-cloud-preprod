@@ -5,7 +5,7 @@ ENV KC_HTTP_ENABLED=true
 
 # Set admin credentials
 ENV KEYCLOAK_ADMIN=admin
-ENV KEYCLOAK_ADMIN_PASSWORD=admin
+ENV KEYCLOAK_ADMIN_PASSWORD=c3ccVBb76Ai2M6
 
 
 # # Configure database (PostgreSQL)
